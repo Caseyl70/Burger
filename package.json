@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Burger app",
+  "main": "servers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caseyl70/Burger.git"
+  },
+  "keywords": [
+    "Burger",
+    "app"
+  ],
+  "author": "Casey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caseyl70/Burger/issues"
+  },
+  "homepage": "https://github.com/Caseyl70/Burger#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
+}
