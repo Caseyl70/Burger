@@ -1,12 +1,12 @@
-<h1>Burgers!</h1>
+<h1>Create Your Own Burger And Devour It!</h1>
 
 <h2>Burgers ready to be eaten!</h2>
 
 <ul id="burgerArea">
   {{#each burgers}}
-    {{#unless devoured}}
-     <li>{{burger_name}}<button value="{{id}}" class="burgerBtn">Devour</button></li>
-    {{/unless}}
+  {{#unless devoured}}
+  <li>{{burger_name}}<button value="{{id}}" class="burgerBtn">Devour</button></li>
+  {{/unless}}
   {{/each}}
 </ul>
 
@@ -14,9 +14,9 @@
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-     <li>{{burger_name}}</li>     
-    {{/if}}
+  {{#if devoured}}
+  <li>{{burger_name}}</li>
+  {{/if}}
   {{/each}}
 </ul>
 
